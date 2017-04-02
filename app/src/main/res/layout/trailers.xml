@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trailers"
+    android:layout_width="@dimen/trailer_width"
+    android:layout_height="@dimen/trailer_hieght">
+
+    <ImageView
+        android:id="@+id/trailer_image"
+        android:layout_width="@dimen/trailer_width"
+        android:layout_height="@dimen/trailer_hieght"
+        android:layout_margin="3dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/trailer_name"
+        android:layout_width="@dimen/trailer_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="3dp"
+        android:background="@color/transparentColor"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_mediam"
+        android:textStyle="bold"
+        tools:text="Trailer Name" />
+
+</RelativeLayout>

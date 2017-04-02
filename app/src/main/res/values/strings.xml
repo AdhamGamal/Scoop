@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Scoop</string>
+    <string name="Reviews">Reviews</string>
+    <string name="About">Details</string>
+    <string name="popular">popular</string>
+    <string name="top_rated">top_rated</string>
+    <string name="noConnection">NO INTERNET ACCESS</string>
+    <string name="movies">LOADING MOVIES !</string>
+    <string name="trailers">LOADING TRAILERS !</string>
+    <string name="reviews">LOADING REVIEWS !</string>
+    <string name="poster_url">http://image.tmdb.org/t/p/w300</string>
+    <string name="date">DATE</string>
+    <string name="rate">RATE</string>
+    <string name="over10">/10</string>
+    <string name="movie_url">http://api.themoviedb.org/3/movie</string>
+    <string name="api_key">api_key</string>
+    <string name="trailers_poster_url">http://img.youtube.com/vi/</string>
+    <string name="trailers_url">http://www.youtube.com/watch?v=</string>
+    <string name="default_size">/sddefault.jpg</string>
+    <string name="asreviews">reviews</string>
+    <string name="videos">videos</string>
+</resources>

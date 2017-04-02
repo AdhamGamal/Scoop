@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sort_by"
+        android:title="SORT BY"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/popular"
+                    android:checked="true"
+                    android:title="POPULAR" />
+                <item
+                    android:id="@+id/top_rate"
+                    android:title="TOP RATED" />
+                <item
+                    android:id="@+id/favorite"
+                    android:title="FAVORITE" />
+            </group>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="always"></item>
+
+</menu>
